@@ -7,7 +7,6 @@ android:
         components:
               - platform-tools
               - tools
-              - android-22
               - build-tools-23.0.1
               - extra-android-support
               - extra-google-google_play_services
@@ -15,8 +14,3 @@ android:
               - extra-android-m2repository
               - addon-google_apis-google-21
               - sys-img-armeabi-v7a-android-19
-before_script:
-        - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
-        - emulator -avd test -no-skin -no-audio -no-window &
-        - android-wait-for-emulator
-        - adb shell input keyevent 82 &
