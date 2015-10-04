@@ -1,0 +1,196 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/codeStyleSettings.xml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/libraries/
+* .idea/libraries/dexedLibs.xml
+* .idea/libraries/libs.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* Major-Project.iml
+* README.md
+* ic_launcher-web.png
+* out/
+* out/production/
+* out/production/Major-Project/
+* out/production/Major-Project/Major-Project.apk
+* out/production/Major-Project/com/
+* out/production/Major-Project/com/blogger/
+* out/production/Major-Project/com/blogger/About.class
+* out/production/Major-Project/com/blogger/AsyncLoadAnswer.class
+* out/production/Major-Project/com/blogger/AsyncLoadCareercup.class
+* out/production/Major-Project/com/blogger/AsyncLoadImage.class
+* out/production/Major-Project/com/blogger/AsyncLoadPost.class
+* out/production/Major-Project/com/blogger/AsyncLoadPostList.class
+* out/production/Major-Project/com/blogger/AsyncMockTestLoader.class
+* out/production/Major-Project/com/blogger/BuildConfig.class
+* out/production/Major-Project/com/blogger/CareercupActivity.class
+* out/production/Major-Project/com/blogger/ClientCredentials.class
+* out/production/Major-Project/com/blogger/Company.class
+* out/production/Major-Project/com/blogger/Constants.class
+* out/production/Major-Project/com/blogger/Database$DbHelper.class
+* out/production/Major-Project/com/blogger/Database.class
+* out/production/Major-Project/com/blogger/DisplayAnswer.class
+* out/production/Major-Project/com/blogger/EMailActivity$1.class
+* out/production/Major-Project/com/blogger/EMailActivity.class
+* out/production/Major-Project/com/blogger/ExpectedActivity$1.class
+* out/production/Major-Project/com/blogger/ExpectedActivity.class
+* out/production/Major-Project/com/blogger/InboxActivity.class
+* out/production/Major-Project/com/blogger/LoginActivity$1$1.class
+* out/production/Major-Project/com/blogger/LoginActivity$1.class
+* out/production/Major-Project/com/blogger/LoginActivity$2.class
+* out/production/Major-Project/com/blogger/LoginActivity.class
+* out/production/Major-Project/com/blogger/MainActivity$1.class
+* out/production/Major-Project/com/blogger/MainActivity$2.class
+* out/production/Major-Project/com/blogger/MainActivity$3.class
+* out/production/Major-Project/com/blogger/MainActivity$4.class
+* out/production/Major-Project/com/blogger/MainActivity$5.class
+* out/production/Major-Project/com/blogger/MainActivity.class
+* out/production/Major-Project/com/blogger/Manifest$permission.class
+* out/production/Major-Project/com/blogger/Manifest.class
+* out/production/Major-Project/com/blogger/MockTestActivity$1.class
+* out/production/Major-Project/com/blogger/MockTestActivity$2.class
+* out/production/Major-Project/com/blogger/MockTestActivity.class
+* out/production/Major-Project/com/blogger/MockTestList.class
+* out/production/Major-Project/com/blogger/ParseConstants.class
+* out/production/Major-Project/com/blogger/PostDisplayActivity$1.class
+* out/production/Major-Project/com/blogger/PostDisplayActivity.class
+* out/production/Major-Project/com/blogger/ProfileActivity.class
+* out/production/Major-Project/com/blogger/R$array.class
+* out/production/Major-Project/com/blogger/R$attr.class
+* out/production/Major-Project/com/blogger/R$dimen.class
+* out/production/Major-Project/com/blogger/R$drawable.class
+* out/production/Major-Project/com/blogger/R$id.class
+* out/production/Major-Project/com/blogger/R$layout.class
+* out/production/Major-Project/com/blogger/R$menu.class
+* out/production/Major-Project/com/blogger/R$raw.class
+* out/production/Major-Project/com/blogger/R$string.class
+* out/production/Major-Project/com/blogger/R$style.class
+* out/production/Major-Project/com/blogger/R.class
+* out/production/Major-Project/com/blogger/RumourActivity$1.class
+* out/production/Major-Project/com/blogger/RumourActivity$2.class
+* out/production/Major-Project/com/blogger/RumourActivity$3.class
+* out/production/Major-Project/com/blogger/RumourActivity$4.class
+* out/production/Major-Project/com/blogger/RumourActivity$5.class
+* out/production/Major-Project/com/blogger/RumourActivity$6$1.class
+* out/production/Major-Project/com/blogger/RumourActivity$6.class
+* out/production/Major-Project/com/blogger/RumourActivity$7.class
+* out/production/Major-Project/com/blogger/RumourActivity$8.class
+* out/production/Major-Project/com/blogger/RumourActivity.class
+* out/production/Major-Project/com/blogger/RumourApplicaton.class
+* out/production/Major-Project/com/blogger/SignUpNew$1.class
+* out/production/Major-Project/com/blogger/SignUpNew$10.class
+* out/production/Major-Project/com/blogger/SignUpNew$2.class
+* out/production/Major-Project/com/blogger/SignUpNew$3.class
+* out/production/Major-Project/com/blogger/SignUpNew$4.class
+* out/production/Major-Project/com/blogger/SignUpNew$5.class
+* out/production/Major-Project/com/blogger/SignUpNew$6.class
+* out/production/Major-Project/com/blogger/SignUpNew$7.class
+* out/production/Major-Project/com/blogger/SignUpNew$8.class
+* out/production/Major-Project/com/blogger/SignUpNew$9.class
+* out/production/Major-Project/com/blogger/SignUpNew.class
+* out/production/Major-Project/com/blogger/Splash$1.class
+* out/production/Major-Project/com/blogger/Splash.class
+* out/production/Major-Project/com/blogger/VersionAdapter$1.class
+* out/production/Major-Project/com/blogger/VersionAdapter$ViewHolder.class
+* out/production/Major-Project/com/blogger/VersionAdapter.class
+* out/production/Major-Project/com/blogger/VersionAdapterAnswer$1.class
+* out/production/Major-Project/com/blogger/VersionAdapterAnswer$ViewHolder.class
+* out/production/Major-Project/com/blogger/VersionAdapterAnswer.class
+* out/production/Major-Project/com/blogger/VersionAdapterLeaderboard$1.class
+* out/production/Major-Project/com/blogger/VersionAdapterLeaderboard$ViewHolder.class
+* out/production/Major-Project/com/blogger/VersionAdapterLeaderboard.class
+* out/production/Major-Project/com/blogger/VersionAdapterRumour$1.class
+* out/production/Major-Project/com/blogger/VersionAdapterRumour$ViewHolder.class
+* out/production/Major-Project/com/blogger/VersionAdapterRumour.class
+* out/production/Major-Project/com/blogger/VersionAdapterVisited$1$1$1.class
+* out/production/Major-Project/com/blogger/VersionAdapterVisited$1$1.class
+* out/production/Major-Project/com/blogger/VersionAdapterVisited$1.class
+* out/production/Major-Project/com/blogger/VersionAdapterVisited$ViewHolder.class
+* out/production/Major-Project/com/blogger/VersionAdapterVisited.class
+* out/production/Major-Project/com/blogger/ViewLeaderboard$1.class
+* out/production/Major-Project/com/blogger/ViewLeaderboard.class
+* out/production/Major-Project/com/blogger/VisitedActivity.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:19.1.0
+gson-2.1.jar => com.google.code.gson:gson:2.1
+guava-11.0.1.jar => com.google.guava:guava:11.0.1
+protobuf-java-2.2.0.jar => com.google.protobuf:protobuf-java:2.2.0
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.1.jar => version 2.1 in com.google.code.gson:gson:2.1
+guava-11.0.1.jar => version 11.0.1 in com.google.guava:guava:11.0.1
+protobuf-java-2.2.0.jar => version 2.2.0 in com.google.protobuf:protobuf-java:2.2.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/Parse-1.4.1.jar => app/libs/Parse-1.4.1.jar
+* libs/google-api-client-1.10.3-beta.jar => app/libs/google-api-client-1.10.3-beta.jar
+* libs/google-api-client-android2-1.10.3-beta.jar => app/libs/google-api-client-android2-1.10.3-beta.jar
+* libs/google-api-services-blogger-v3-rev1-1.7.2-beta.jar => app/libs/google-api-services-blogger-v3-rev1-1.7.2-beta.jar
+* libs/google-http-client-1.10.3-beta.jar => app/libs/google-http-client-1.10.3-beta.jar
+* libs/google-http-client-android2-1.10.3-beta.jar => app/libs/google-http-client-android2-1.10.3-beta.jar
+* libs/google-http-client-android3-1.10.3-beta.jar => app/libs/google-http-client-android3-1.10.3-beta.jar
+* libs/google-oauth-client-1.10.1-beta.jar => app/libs/google-oauth-client-1.10.1-beta.jar
+* libs/jackson-core-asl-1.9.4.jar => app/libs/jackson-core-asl-1.9.4.jar
+* libs/jsoup-1.7.3.jar => app/libs/jsoup-1.7.3.jar
+* libs/jsr305-1.3.9.jar => app/libs/jsr305-1.3.9.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

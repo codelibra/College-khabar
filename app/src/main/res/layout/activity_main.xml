@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#FCFECC"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/leaderboardbutton1"
+        android:layout_alignBottom="@+id/leaderboardbutton1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/leaderboardbutton1"
+        android:layout_alignBottom="@+id/leaderboardbutton1"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom3" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/button3"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/trysplash" />
+
+    <Button
+        android:id="@+id/searchcompany"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/autoCompleteTextView1"
+        android:layout_alignBottom="@+id/autoCompleteTextView1"
+        android:layout_toRightOf="@+id/imageView1"
+        android:background="@drawable/search_button"
+        android:text="Search"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="35dp"
+        android:layout_toLeftOf="@+id/searchcompany"
+        android:autoText="true"
+        android:background="@drawable/rounded_corners_new"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Search!\n Ex: AMAZON"
+        android:lines="1">
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/leaderboardbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="21dp"
+        android:layout_toLeftOf="@+id/autoCompleteTextView1"
+        android:background="@drawable/custom" />
+
+    <Button
+        android:id="@+id/mocktest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/searchcompany"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Take Mock Test" />
+
+</RelativeLayout>

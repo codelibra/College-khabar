@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/devmail"
+        android:showAsAction="never"
+        android:title="Email"></item>
+    <item
+        android:id="@+id/about"
+        android:showAsAction="ifRoom|withText"
+        android:title="About Us"></item>
+    <item
+        android:id="@+id/exit"
+        android:showAsAction="never"
+        android:title="Exit"></item>
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/profile"
+        android:showAsAction="always"
+        android:title="profile"></item>
+
+</menu>

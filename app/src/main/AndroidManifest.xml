@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blogger"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.blogger.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.blogger.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.blogger.RumourApplicaton"
+        android:allowBackup="true"
+        android:icon="@drawable/shortcut"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.blogger.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blogger.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.manit.placements.MANITPLACEMENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blogger.VisitedActivity"
+            android:label="@string/title_activity_visited"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.ExpectedActivity"
+            android:label="@string/title_activity_expected"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.RumourActivity"
+            android:label="@string/title_activity_rumour"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing"></activity>
+        <activity
+            android:name="com.blogger.EMailActivity"
+            android:label="EMail"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.Company"
+            android:label="Company"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.About"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.manit.placements.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blogger.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.InboxActivity"
+            android:label="@string/title_activity_inbox"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.PostActivity"
+            android:label="@string/title_activity_post"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.Prefs"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.manit.placements.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blogger.PostDisplayActivity"
+            android:label="@string/title_activity_post_display"
+            android:screenOrientation="portrait"></activity>
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!--
+				  IMPORTANT: If you change the package name of this sample app,
+				  change "com.parse.tutorials.pushnotifications" in the lines
+				  below to match the new package name.
+
+
+
+
+
+
+
+
+                -->
+                <category android:name="com.blogger" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.blogger.CareercupActivity"
+            android:label="@string/title_activity_careercup"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.DisplayAnswer"
+            android:label="@string/title_activity_display_answer"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.SignUpNew"
+            android:label="@string/title_activity_sign_up_new"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.MockTestList"
+            android:label="@string/title_activity_mock_test_list"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.Results"
+            android:label="@string/title_activity_results"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.ViewLeaderboard"
+            android:label="@string/title_activity_view_leaderboard"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.blogger.MockTestActivity"
+            android:label="@string/title_activity_mock_test"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@android:id/empty"
+        android:background="@drawable/back3"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/question"
+        android:divider="#000000"
+        android:dividerHeight="1px"
+        android:listSelector="@android:color/transparent"></ListView>
+
+</RelativeLayout>

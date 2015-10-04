@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/prev_img"
+        android:icon="@drawable/previous_ic2"
+        android:showAsAction="always"
+        android:title="previous" />
+
+    <item
+        android:id="@+id/nxt_img"
+        android:icon="@drawable/next_ic2"
+        android:showAsAction="always"
+        android:title="next" />
+
+</menu>
