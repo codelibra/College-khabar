@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-oauth-client-1.10.1-beta">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/google-oauth-client-1.10.1-beta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

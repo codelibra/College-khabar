@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_next"
+        android:icon="@drawable/next_ic2"
+        android:showAsAction="always"
+        android:title="post" />
+    <item
+        android:id="@+id/action_direction"
+        android:icon="@drawable/directions"
+        android:showAsAction="always"
+        android:title="directions" />
+
+</menu><!-- From: file:/Users/shiv/StudioProjects/Major-Project/app/src/main/res/menu/mock_test.xml -->

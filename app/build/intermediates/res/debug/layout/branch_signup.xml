@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/branchradio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Computer Science " />
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electronics Communication" />
+
+    <RadioButton
+        android:id="@+id/rb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mechanical" />
+
+    <RadioButton
+        android:id="@+id/rb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Civil " />
+
+    <RadioButton
+        android:id="@+id/rb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electrical " />
+
+    <RadioButton
+        android:id="@+id/rb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Architecture " />
+
+    <RadioButton
+        android:id="@+id/rb7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metallurgy " />
+
+</RadioGroup><!-- From: file:/Users/shiv/StudioProjects/Major-Project/app/src/main/res/layout/branch_signup.xml -->
