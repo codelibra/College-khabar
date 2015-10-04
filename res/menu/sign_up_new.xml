@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item android:id="@+id/action_sign_up"
+          android:icon="@drawable/next_ic2"
+          android:showAsAction="always"
+          android:title="post"
+           />
+</menu>
