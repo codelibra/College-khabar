@@ -248,7 +248,7 @@ public class RumourActivity extends ListActivity {
         curryear = postyear;
 
         String channel = currbranch + curryear;
-        Log.v("yearrr yahaa kya bakar hhhh!!!", channel + " " + postyear);
+        Log.v("yearrr h!!!", channel + " " + postyear);
         ParseObject temp = new ParseObject(channel);
         temp.put(ParseConstants.KEY_SENDER_NAME, ParseUser.getCurrentUser().getUsername());
         temp.put(ParseConstants.KEY_POST, message);

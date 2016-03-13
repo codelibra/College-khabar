@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/shiv/StudioProjects/Major-Project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-ar/values.xml -->
+    <!-- From: file:/Users/shiv/StudioProjects/Major-Project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-ar/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
@@ -14,5 +14,5 @@
     <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
-    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"مشاركة مع %s"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
 </resources>
