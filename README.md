@@ -1,7 +1,7 @@
 
 [![Build Status](https://travis-ci.org/codelibra/College-khabar.svg?branch=master)](https://travis-ci.org/codelibra/College-khabar)
 
-#NIT-Bhopal PLACEMENTS
+#College Khabar
 
 [![Join the chat at https://gitter.im/codelibra/Major-Project](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/codelibra/Major-Project?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
