@@ -14,5 +14,4 @@ A college global leader-board will be shown between all who have given the tests
 5. We can search for company specific questions asked by any company present
 on popular website careercup.com
 6. Giving objective mock tests is a extra feature which is NOT completely tested. Anyone can give aptitude , verbal ability , LR etc.. tests.  
-Able to commit
-
+Testing....
