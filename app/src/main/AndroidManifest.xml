@@ -85,7 +85,7 @@
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="com.blogger.SignUpActivity"
+            android:name="com.blogger.SignUpNew"
             android:label="@string/title_activity_sign_up"
             android:screenOrientation="portrait"></activity>
         <activity
